@@ -1,7 +1,10 @@
-
 # Hayvan Tabloları E-Ticaret Uygulaması
 
 Bu proje, Angular ve Angular-Material kullanılarak geliştirilmiş bir hayvan tablolarının satıldığı e-ticaret uygulamasıdır. Kullanıcılar tablo isimlerine göre arama yapabilir, fiyatlarına göre sıralayabilir, tabloyu sepete ekleyip toplam fiyatı görebilir ve checkout işlemi gerçekleştirebilir.
+
+İncelemek için:
+![1](https://github.com/user-attachments/assets/52aee366-8acb-442e-bcda-cbb5a508f0c2)
+![2](https://github.com/user-attachments/assets/d826cd55-3c11-411d-8fe8-a6a654fb511d)
 
 ## Özellikler
 
@@ -15,6 +18,7 @@ Bu proje, Angular ve Angular-Material kullanılarak geliştirilmiş bir hayvan t
 
 - **Angular:** Frontend geliştirme için kullanılan framework.
 - **Angular Material:** UI bileşenleri ve kullanıcı dostu arayüz için kullanılan kütüphane.
+- **Mockoon:** Mockoon programı ile ile Mock Api'lar kullanılmıştır.
 - **TypeScript:** JavaScript'in güçlü bir superset dili.
 - **CSS/SCSS:** Stillerin düzenlenmesi için kullanılmıştır.
 
@@ -25,6 +29,10 @@ Projeyi kendi bilgisayarınızda bağımlılıkları yükleyerek çalıştırabi
 # Animal Paintings E-Commerce Application
 
 This project is an e-commerce application for purchasing animal paintings, developed using Angular and Angular Material. Users can search for paintings by name, sort by price, add them to the cart, view the total price, and proceed to checkout.
+
+To Preview:
+![1](https://github.com/user-attachments/assets/52aee366-8acb-442e-bcda-cbb5a508f0c2)
+![2](https://github.com/user-attachments/assets/d826cd55-3c11-411d-8fe8-a6a654fb511d)
 
 ## Features
 
@@ -38,14 +46,13 @@ This project is an e-commerce application for purchasing animal paintings, devel
 
 - **Angular:** Framework used for frontend development.
 - **Angular Material:** Library used for UI components and creating a user-friendly interface.
+- **Mockoon:** Mock APIs were used with Mockoon.
 - **TypeScript:** A powerful superset of JavaScript.
 - **CSS/SCSS:** Used for styling.
 
 ## Running the Project
 
 You can run this project locally by installing the necessary dependencies.
-
-
 
 -----------------------------------------------
 # ECommerce
