@@ -1,3 +1,53 @@
+
+# Hayvan Tabloları E-Ticaret Uygulaması
+
+Bu proje, Angular ve Angular-Material kullanılarak geliştirilmiş bir hayvan tablolarının satıldığı e-ticaret uygulamasıdır. Kullanıcılar tablo isimlerine göre arama yapabilir, fiyatlarına göre sıralayabilir, tabloyu sepete ekleyip toplam fiyatı görebilir ve checkout işlemi gerçekleştirebilir.
+
+## Özellikler
+
+- **Tablo Arama:** Kullanıcılar tablo isimlerine göre arama yapabilir.
+- **Fiyat Sıralama:** Tabloları ucuzdan pahalıya veya pahalıdan ucuza sıralayabilirsiniz.
+- **Sepete Ekleme:** Tabloları tıklayarak sepete ekleyebilir ve sepetteki tabloların toplam fiyatını görebilirsiniz.
+- **Checkout:** Sepeti onaylayarak ödeme adımına geçebilirsiniz.
+- **Sepeti Temizleme:** Sepeti temizleyerek baştan işlem yapabilirsiniz.
+
+## Kullanılan Teknolojiler
+
+- **Angular:** Frontend geliştirme için kullanılan framework.
+- **Angular Material:** UI bileşenleri ve kullanıcı dostu arayüz için kullanılan kütüphane.
+- **TypeScript:** JavaScript'in güçlü bir superset dili.
+- **CSS/SCSS:** Stillerin düzenlenmesi için kullanılmıştır.
+
+## Projenin Çalıştırılması
+
+Projeyi kendi bilgisayarınızda bağımlılıkları yükleyerek çalıştırabilirsiniz.
+------------------------------------------------------
+# Animal Paintings E-Commerce Application
+
+This project is an e-commerce application for purchasing animal paintings, developed using Angular and Angular Material. Users can search for paintings by name, sort by price, add them to the cart, view the total price, and proceed to checkout.
+
+## Features
+
+- **Search Paintings:** Users can search for paintings by name.
+- **Price Sorting:** You can sort paintings from cheapest to most expensive or vice versa.
+- **Add to Cart:** Click on paintings to add them to the cart and see the total price of the items in the cart.
+- **Checkout:** Proceed to the checkout to complete your purchase.
+- **Clear Cart:** Clear the cart to start over.
+
+## Technologies Used
+
+- **Angular:** Framework used for frontend development.
+- **Angular Material:** Library used for UI components and creating a user-friendly interface.
+- **TypeScript:** A powerful superset of JavaScript.
+- **CSS/SCSS:** Used for styling.
+
+## Running the Project
+
+You can run this project locally by installing the necessary dependencies.
+
+
+
+-----------------------------------------------
 # ECommerce
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.0.

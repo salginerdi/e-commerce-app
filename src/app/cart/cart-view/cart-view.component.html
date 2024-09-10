@@ -1,0 +1,27 @@
+<div class="container-sm" style="padding: 16px;">
+  <h4 style="font-weight: 600; margin-bottom: 16px;">Your Cart</h4>
+  <mat-card style="padding: 24px; box-shadow: 0px 2px 10px rgba(0,0,0,0.1);">
+    <mat-list>
+      <!-- Cart Items -->
+      @for (item of cart(); track $index) {
+        <mat-list-item style="padding: 12px 0; border-bottom: 1px solid #e0e0e0;">
+          <div class="mat-item" matListItemTitle style="font-size: 16px; font-weight: 500;">{{ item.name }}</div>
+          <span class="mat-line" matListItemLine style="color: #757575;">{{ item.price | currency: 'USD' }}</span>
+        </mat-list-item>
+      }
+
+      <!-- Total Price -->
+      <mat-list-item style="padding: 12px 0; border-top: 2px solid #000; margin-top: 16px;">
+        <div class="mat-item-total" matListItemTitle style="font-size: 16px; font-weight: 700;">Total (USD)</div>
+        <span class="mat-line-total" matListItemLine
+              style="font-size: 16px; color: #000;">{{ totalPrice() | currency: 'USD' }}</span>
+      </mat-list-item>
+
+      <!-- Buttons -->
+      <div style="display: flex; justify-content: space-between; margin-top: 16px;">
+        <button mat-flat-button color="primary" style="padding: 8px 16px;" (click)="checkout()">Checkout</button>
+        <button mat-raised-button color="warn" style="padding: 8px 16px;" (click)="clearCart()">Clear</button>
+      </div>
+    </mat-list>
+  </mat-card>
+</div>
